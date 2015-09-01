@@ -1,0 +1,214 @@
+/*code to make body of site orange*/
+#b1 {
+	background-color: orange;
+	font-size: 24px;
+}
+
+/*set the style for the navbar and padding*/
+.navbar-brand {
+	font-family: Times, Helvetica, sans-serif;
+	background-color: rgb(33,78,120);
+	padding-top: 15px;
+	font-size: 26px;
+}
+
+/*set colors for initials on top left corner*/
+.navbar-brand #R{
+	color:orange;
+}
+.navbar-brand #E{
+	color:white;
+}
+.navbar-brand #B{
+	color:orange;
+}
+
+/*set the format for the links in navbar*/
+.navbar-header a{
+	font-weight: bolder;
+	color: #2200CC;
+}
+
+/*format of jumbotron to hold image of me and intro paragraph*/
+.jumbotron{
+	background-color: rgb(33,78,120);
+	height: 300px;
+	background-size: cover;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+/*formatting my picture*/
+.my-pic img{
+	border: 10px solid white;
+	position: relative;
+	float: left;
+}
+
+/*formatting header and paragraph for intro*/
+.pic-text h1{
+	color: orange;
+	text-align: center;
+}
+.pic-text p{
+	color: orange;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+/*basic info to be held inside a white background (format for font and background)*/
+.white-back{
+	background-color: white;
+	height: 250px;
+	background-size: cover;
+}
+.basic-info{
+	color: rgb(33,78,120);
+	position: relative;
+	padding-top: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+/*formating for images of my hobbies*/
+.tennis-thumbnail img{
+	height: 360px;
+	width: 360px;
+	border: 10px solid white;
+}
+.game-thumbnail img{
+	border: 10px solid white;
+	height: 360px;
+	width: 360px;
+}
+.long-thumbnail img{
+	text-align: center;
+	height: 200px;
+	width: 260px;
+	border: 10px solid white;
+}
+.pong-thumbnail img{
+	height: 160px;
+	width: 260px;
+	border: 10px solid white;
+}
+
+/*formatting for the container that will hold text and images for my hobbies*/
+.my-hobbies .container h2{
+	color: rgb(33,78,120);
+}
+.my-hobbies .container p{
+	color: rgb(33,78,120);
+}
+
+/*formatting for my experience description section*/
+.exp{
+color: rgb(33,78,120);
+text-align: center;
+}
+.exp p{
+	font-size: 19px;
+	font-weight: bold;
+}
+.exp li{
+	font-size: 18px;
+	text-align: center;
+	list-style-type: none;
+}
+#exp-H{
+	text-align: center;
+	color: rgb(33,78,120);
+}
+#TA{
+	font-size: 20px;
+}
+
+/*formatting for java image*/
+.java-thumb img{
+	height: 160px;
+	width: 260px;
+	border: 10px solid rgb(33,78,120);
+}
+.java-thumb{
+	padding-top: 70px;
+}
+
+/*formatting for a blue background*/
+.blue-contain{
+	background-color: rgb(33,78,120);
+	height: 300px;
+	background-size: cover;
+}
+
+/*formatting for the skills section*/
+#skills{
+	padding-left: 120px;
+	text-align: justify;
+	color: white;
+}
+#skill-h1{
+	padding-top: 45px;
+	padding-left: 35px;
+}
+#skill-h2{
+	padding-left: 35px;
+}
+
+/*formatting for a white background*/
+#white{
+	background-color: white;
+	text-align: left;
+	color: orange;
+	height: 400px;
+	background-size: cover;
+}
+
+/*formatting for the projects section (including images)*/
+#projects{
+	padding-left: 130px;
+}
+#projects h1{
+	padding-top: 10px;
+}
+#projects img{
+	height: 250px;
+	width: 250px;
+}
+
+/*formatting for resume section*/
+#resume{
+	color: rgb(33,78,120);
+	padding-left: 130px;
+	padding-top: 50px;
+}
+
+/*formatting for the social media icons and text*/
+#media-group{
+	padding-top: 10px;
+	padding-left: 250px;
+}
+.media h1{
+	color: orange;
+	text-align: center;
+}
+#add-me{
+	text-align: center;
+}
+
+/*formatting for contact section*/
+#contact{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+
+/*formatting for footer at bottom of site pages*/
+#footer footer{
+	font-size: 16px;
+	padding-top:100px;
+	text-align: center;
+}

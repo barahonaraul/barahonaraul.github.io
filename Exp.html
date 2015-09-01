@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <!--Code used to make a title of my name on tab-->
+    <title>Raul Barahona</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My Modified css file which will add color and format as needed -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <!-- Id the body as b1 so I can color it in css-->
+  <body id = "b1">
+
+
+<!-- start of navbar (all code for the navbar, used template from bootstrap) -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="images/beta.gif">
+        <!--used id on each letter to allow more customization -->
+        <span id = "R">R.</span>
+        <span id = "E">E.</span>
+        <span id = "B">B.</span>
+      </a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">About Me</a></li>
+        <li class="active"><a href="Exp.html">Experience<span class="sr-only">(current)</span></a></li>
+        <li><a href="Media.html">Media/Contact</a></li>
+        
+      </ul>
+    
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- end of navbar code -->
+
+<!-- code that will hold my experience information and images associated with it-->
+<!-- I used bootstrap grid to organize content in columns-->
+<div class = experience>
+
+  <div class = row>
+
+    <div class = "col-md-8">
+      <div class = "exp">
+        <h1 id ="exp-H"><b>Experience</b></h1>
+        <h2 id = "TA"> <b>University of Florida CISE Department</b>
+      <br/>Undergraduate TA for Programming Fundamentals I with Java
+      <br/>September 2014 - December 2014</h2>
+      <p> During my time as a TA I was in charge of: </p>
+        <ul>
+          <li>Lecturing two discussion sessions per week ( about 40 students)</li>
+          <li>Explaining complex technical and fundamental programming concepts to students</li>
+          <li>Grading papers, planning lectures/preparing examples, coordinating with professor</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "col-md-4">
+      <div class = "java-thumb">
+        <img src = "images/java.jpg"  >
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--Code used to make the skills section using a blue background-->
+<div class = "blue-contain">
+
+  <div id = "skills">
+    <h1 id = "skill-h1">Skills</h1>
+    <h2 id = "skill-h2"> Some of my Skills Include: </h2>
+    <ul id = "skill-list">
+      <li>Programming - C/C++, Java, MATLab, Python, HTML, CSS, MIPs</li>
+      <li>Database Languages - SQL</li>
+      <li>Design Languages - Quartus, VHDL</li>
+    </ul>
+  </div>
+
+</div>
+
+<!--Code used to make the projects section with images and links to project(s)-->
+<div id = "white">
+  <div id = "projects">
+    <h1>Projects</h1>
+    <h2>Click on the Image(s) below and try some cool things I've made!<h2>
+      <a href ="https://www.dropbox.com/s/5xjx1xhg27cna7d/BreakoutV2.jar?dl=0"><img src = "images/breakout.png"></a>
+  </div>
+
+</div>
+
+  <!--Code for the resume section using text and a link-->
+  <div id ="resume">
+  <h1>Resume</h1>
+  <a href="resume/RaulBarahona_Resume.pdf">Click here for a copy of my Resume!</a>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!--code written for bottom of page, gives viewers the disclaimer that this site is not perfect-->
+<div id = "footer"><footer>Site Version 1.0 Raul Barahona 2015</footer></div>
+
+  </body>
+</html>
